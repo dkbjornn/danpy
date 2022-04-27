@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "danpy"
+version = "0.1.0"
+description = "A collection of functions that I've found useful for my projects."
+authors = ["Dan Bjornn  <dkbjornn@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.2"
+pandas-flavor = "^0.3.0"
+pyjanitor = "^0.22.0"
+pyment = "^0.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
